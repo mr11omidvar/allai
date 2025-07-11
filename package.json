@@ -1,13 +1,15 @@
 {
-    "name": "jarvis-telegram-bot",
-    "version": "1.0.0",
-    "description": "A simple scheduling Telegram bot.",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-    },
-    "dependencies": {
-      "node-cron": "^3.0.3",
-      "node-telegram-bot-api": "^0.66.0"
-    }
+  "name": "jarvis-ultimate-bot",
+  "version": "1.0.0",
+  "description": "A comprehensive assistant bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "@google/generative-ai": "^0.12.0"
   }
+}
